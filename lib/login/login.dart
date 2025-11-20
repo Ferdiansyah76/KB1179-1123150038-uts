@@ -13,7 +13,7 @@ class LoginPageHib extends StatelessWidget {
             child: Column(
               children: [
                 const SizedBox(height: 10),
-                const Icon(Icons.lock_outline, size: 80, color: Colors.green),
+                const Icon(Icons.hiking_sharp, size: 100, color: Colors.green),
                 const SizedBox(height: 20),
                 const Text(
                   "Selamat Datang!",
@@ -118,6 +118,16 @@ class LoginPageHib extends StatelessWidget {
                       ),
                     ),
                   ],
+                ),
+                SizedBox(height: 10),
+                Text(
+                  "1123150038",
+                  textAlign: TextAlign.center,
+                  style: TextStyle(
+                    fontSize: 15,
+                    color: Colors.green,
+                    fontWeight: FontWeight.normal,
+                  ),
                 ),
               ]
             ),
