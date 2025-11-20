@@ -35,6 +35,16 @@ class HibSplashScreen2 extends StatelessWidget {
                 fontWeight: FontWeight.w700,
               ),
             ),
+            SizedBox(height: 25),
+            Text(
+              "Don't worry! we got you cover. \n Use wallie instead of cash!",
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                fontSize: 25,
+                color: Colors.green,
+                fontWeight: FontWeight.normal,
+              ),
+            ),
           ],
         ),
       ),
