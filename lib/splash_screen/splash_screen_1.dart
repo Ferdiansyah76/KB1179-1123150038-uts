@@ -35,6 +35,16 @@ class HibSplashScreen1 extends StatelessWidget {
                 fontWeight: FontWeight.w700,
               ),
             ),
+            SizedBox(height: 25),
+            Text(
+              "Forgot to bring your wallet \n when you are shopping?",
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                fontSize: 25,
+                color: Colors.green,
+                fontWeight: FontWeight.normal,
+              ),
+            ),
           ],
         ),
       ),
