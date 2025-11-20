@@ -67,6 +67,14 @@ class HibSplashScreen1 extends StatelessWidget {
                   ),
                 ),
                 const SizedBox(width: 8),
+                Container(
+                  height: 8,
+                  width: 8,
+                  decoration: BoxDecoration(
+                    shape: BoxShape.circle,
+                    color: Colors.green[100],
+                  ),
+                )
               ],
             )
           ],
