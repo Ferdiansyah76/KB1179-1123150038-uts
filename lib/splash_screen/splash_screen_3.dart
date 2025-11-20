@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:kb1179_1123150038_uts/login/login.dart';
 
 
 class HibSplashScreen3 extends StatelessWidget {
@@ -76,6 +77,34 @@ class HibSplashScreen3 extends StatelessWidget {
                   ),
                 )
               ],
+            ),
+            SizedBox(height: 20),
+            Container(
+              margin: EdgeInsets.only(left: 20, right: 20),
+              child: SizedBox(
+                height: 55,
+                width: double.infinity,
+                child: ElevatedButton(
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => LoginPageHib(),
+                      ),
+                    );
+                  },
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: const Color(0xFF00C853),
+                  ),
+                  child: Text(
+                    "Continue",
+                    style: TextStyle(
+                      fontSize: 18.0,
+                      color: Colors.white,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                ),
+              ),
             ),
           ]
         ),
