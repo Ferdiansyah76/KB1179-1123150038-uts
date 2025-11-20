@@ -25,6 +25,26 @@ class HibSplashScreen3 extends StatelessWidget {
                 ),
               ),
             ),
+            SizedBox(height: 20),
+            Text(
+              "Welcome",
+              style: TextStyle(
+                fontFamily: 'Roboto',
+                fontSize: 28.0,
+                color: Colors.black,
+                fontWeight: FontWeight.w700,
+              ),
+            ),
+            SizedBox(height: 25),
+            Text(
+              "Let's try Wallie now! \n And get the best solution.",
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                fontSize: 25,
+                color: Colors.green,
+                fontWeight: FontWeight.normal,
+              ),
+            ),
           ]
         ),
       ),
