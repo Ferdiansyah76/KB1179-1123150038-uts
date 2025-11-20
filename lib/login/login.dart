@@ -64,6 +64,17 @@ class LoginPageHib extends StatelessWidget {
                     ),
                   ),
                 ),
+                const SizedBox(height: 10),
+                Align(
+                  alignment: Alignment.centerRight,
+                  child: TextButton(
+                    onPressed: () {},
+                    child: const Text(
+                      "Lupa Password?",
+                      style: TextStyle(color: Colors.blue, fontSize: 14),
+                    ),
+                  ),
+                ),
               ]
             ),
           ),
