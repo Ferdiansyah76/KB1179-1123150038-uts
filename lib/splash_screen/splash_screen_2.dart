@@ -6,6 +6,28 @@ class HibSplashScreen2 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Spacer(),
+            SizedBox(height: 20),
+            Container(
+              height: 220,
+              width: 220,
+              decoration: BoxDecoration(
+                shape: BoxShape.circle,
+                color: Colors.transparent,
+                image: DecorationImage(
+                  image: AssetImage("/hibbrione.png"),
+                  fit: BoxFit.cover,
+                ),
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
   }
 }
