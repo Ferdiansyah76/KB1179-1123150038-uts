@@ -4,10 +4,10 @@
 Berikut hasil tampilan aplikasi:
 
 ### Tampilan Desktop
-![Tampilan Aplikasi Desktop 1](assets/screen 1.png)
-![Tampilan Aplikasi Desktop 2](assets/screen 2.png)
-![Tampilan Aplikasi Desktop 3](assets/screen 3.png)
-![Tampilan Aplikasi Desktop 4](assets/screen 4.png)
+![Tampilan Aplikasi Desktop 1](assets/screen1.png)
+![Tampilan Aplikasi Desktop 2](assets/screen2.png)
+![Tampilan Aplikasi Desktop 3](assets/screen3.png)
+![Tampilan Aplikasi Desktop 4](assets/screen4.png)
 
 ---
 
