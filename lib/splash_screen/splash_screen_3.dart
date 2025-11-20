@@ -106,6 +106,16 @@ class HibSplashScreen3 extends StatelessWidget {
                 ),
               ),
             ),
+            SizedBox(height: 10),
+            Text(
+              "1123150038",
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                fontSize: 15,
+                color: Colors.green,
+                fontWeight: FontWeight.normal,
+              ),
+            )
           ]
         ),
       ),
